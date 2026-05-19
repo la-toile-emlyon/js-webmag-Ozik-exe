@@ -23,28 +23,22 @@ function getData() {
 
       // TODO 2: REMPLIR LA NAVIGATION
 
+      let nav = document.getElementById("themes-nav")
       
+      let bouton1 = `<button class="nav-theme-btn active">TOUS</button>`;
 
+      nav.insertAdjacentHTML("beforeend", bouton1);
       
+      function creerBouton(bouton) {
+        let bouton2 = `<button class="nav-theme-btn">${bouton.theme}</button>`;
 
-      
-      
-      let navbarHtml = document.querySelector('nav');
-      let navbarContainer = document.querySelector('nav .container');
-      let navbarThemes = document.getElementById(`themes-nav`)
-     
-      console.log(navbarHtml);
-      console.log(navbarContainer);
-      console.log(navbarThemes);
+      nav.insertAdjacentHTML("beforeend", bouton2);
+      }
 
-      let bouton = document.createElement("button");
 
-      bouton.textContent = "TOUS";
-
-      bouton.className = "nav-theme-btn active";
-
-      navbarThemes.appendChild(bouton);
-
+      data.journal.articles.forEach(theme => {
+        creerBouton(theme)
+      });
       
 
       // TODO 3: REMPLIR L'ARTICLE PRINCIPAL
@@ -131,6 +125,27 @@ function getData() {
 
 
       // TODO 6: REMPLIR LES AUTEURS
+
+      let auteurListe = document.getElementById(`authors-list`);
+  
+
+         data.journal.auteurs.forEach(auteur => {
+          creerAuteur(auteur)
+         });
+         
+      
+            function creerAuteur(auteur) {
+              let divAuteur = `<div class="author-card">
+               <img class="author-image" src="${auteur.photo}" alt="">
+               <h3>${auteur.prenom}</h3>
+               <p class="author-role">${auteur.typeExperience}</p>
+               <p class="author-bio">${auteur.presentation}</p>
+            </div>`
+              
+              
+            auteurListe.insertAdjacentHTML("beforeend", divAuteur)
+
+            }
 
       // TODO 7: REMPLIR LE CALL TO ACTION
 
