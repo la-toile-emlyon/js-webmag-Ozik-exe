@@ -1,0 +1,94 @@
+{
+  "journal": {
+    "nomJournal": "One Piece News",
+    "logo": "assets/images/logo.svg",
+    "phraseAccroche": "Votre source d'informations sur l'univers de One Piece",
+    "texteAppelAction": "Abonnez-vous pour ne rien manquer des aventures de Luffy et de son équipage !",
+    "articlePrincipal": {
+      "titre": "Les dernières nouvelles de One Piece : ce que les fans doivent savoir",
+      "description": "Restez informés sur les chapitres du manga, les épisodes de l'anime, les annonces et les événements liés à One Piece.",
+      "date": "25 Avril 2024",
+      "theme": "Actualités de One Piece",
+      "image": "assets/images/image1.png"
+    },
+    "articles": [
+      {
+        "titre": "Récapitulatif des chapitres : analyse et théories sur les derniers développements",
+        "date": "20 Avril 2024",
+        "theme": "Manga",
+        "image": "assets/images/image2.png",
+        "popularite": 78
+      },
+      {
+        "titre": "Analyse des épisodes : critiques et discussions sur les derniers épisodes de l'anime",
+        "date": "15 Avril 2024",
+        "theme": "Anime",
+        "image": "assets/images/image3.jpg",
+        "popularite": 63
+      },
+      {
+        "titre": "Top 10 des moments les plus épiques de One Piece",
+        "date": "5 Avril 2024",
+        "theme": "Moments",
+        "image": "assets/images/image4.jpg",
+        "popularite": 97
+      },
+      {
+        "titre": "Les prochains arcs et événements à venir dans One Piece",
+        "date": "28 Mars 2024",
+        "theme": "Arcs",
+        "image": "assets/images/image2.png",
+        "popularite": 73
+      },
+      {
+        "titre": "Les dernières annonces de produits dérivés et de collaborations One Piece",
+        "date": "20 Mars 2024",
+        "theme": "Produits dérivés",
+        "image": "assets/images/image3.jpg",
+        "popularite": 21
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Manga",
+        "description": "Résumés, analyses et théories sur les derniers chapitres du manga One Piece, avec des discussions approfondies sur l'intrigue et les personnages."
+      },
+      {
+        "nom": "Anime",
+        "description": "Critiques d'épisodes, résumés et discussions sur l'anime One Piece, avec des analyses de l'animation, de la musique et des différences par rapport au manga."
+      },
+      {
+        "nom": "Moments",
+        "description": "Rétrospectives sur les moments les plus mémorables de One Piece, des combats épiques aux révélations sur l'histoire."
+      },
+      {
+        "nom": "Arcs",
+        "description": "Présentations et discussions sur les arcs narratifs de One Piece, avec des prédictions et des spéculations sur les futurs événements."
+      },
+      {
+        "nom": "Produits dérivés",
+        "description": "Annonces et critiques des produits dérivés, des figurines aux vêtements, ainsi que des collaborations spéciales avec d'autres franchises."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Luffy",
+        "typeExperience": "Capitaine Pirate",
+        "presentation": "En tant que capitaine de l'équipage du Chapeau de Paille, je partage mes analyses et mes réflexions sur les derniers événements de One Piece, du point de vue d'un pirate intrépide !",
+        "photo": "assets/images/image2.png"
+      },
+      {
+        "prenom": "Nami",
+        "typeExperience": "Cartographe et navigatrice",
+        "presentation": "Navigatrice de l'équipage, je vous tiens informés des dernières nouvelles de One Piece et des meilleurs spots pour trouver les derniers trésors !",
+        "photo": "assets/images/image3.jpg"
+      },
+      {
+        "prenom": "Chopper",
+        "typeExperience": "Médecin et fan inconditionnel",
+        "presentation": "En tant que médecin et grand fan de la série, je vous apporte des analyses détaillées et des critiques des derniers chapitres et épisodes de One Piece.",
+        "photo": "assets/images/image4.jpg"
+      }
+    ]
+  }
+}
