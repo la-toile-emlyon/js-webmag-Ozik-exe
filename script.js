@@ -73,15 +73,6 @@ function getData() {
       let article = document.getElementById(`articles-grid`)
       console.log(article);
       
-      // let divArticle = `<div class="article-card">
-      //             <img src="assets/images/image1.png" alt="">
-      //             <div class="article-content">
-      //             <p class="theme-badge">${data.journal.articles[0].theme}</p>
-      //             <h3>${data.journal.articles[0].titre}</h3>
-      //             <p>${data.journal.articles[0].date}</p>
-      //          </div>`;
-
-      // article.insertAdjacentHTML("beforeend", divArticle)
 
       data.journal.articles.forEach(infos => {
 
@@ -111,11 +102,7 @@ function getData() {
 
 
          data.journal.themes.forEach(theme => {
-        //   let divTheme = `<div class="theme-item"><h3>${infos.nom}</h3>
-        //     <p>${infos.description}</p></div>
-        //  </div>`
-
-        //  themes.insertAdjacentHTML("beforeend", divTheme)
+      
 
         creerThemes(theme)
          });
