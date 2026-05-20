@@ -166,17 +166,17 @@ function getData() {
      bouton.addEventListener("click", function () {
       alert("Merci pour votre abonnement !")
   })
-
+    
 
       /// FIN DU CODE
 
       
 
-      // BONUS 1 : Alert sur le bouton CTA
+      // BONUS 1 : Alert sur le bouton CTA (fait)
 
-      // BONUS 2 : Filtrage par thème
+      // BONUS 2 : Filtrage par thème(pas fait)
 
-      // BONUS 3 : Tri par popularité
+      // BONUS 3 : Tri par popularité (pas fait)
     })
 
   
