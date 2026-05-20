@@ -1,3 +1,5 @@
+AOS.init();
+
 function getData() {
   fetch('data.json')
     .then((response) => {
@@ -52,8 +54,8 @@ function getData() {
       console.log(heroContainer);
       console.log(articlePrincipal);
 
-      let div = `<img id="hero-image" src="assets/images/image1.png" alt="">
-            <div class = "hero-info">
+      let div = `<img id="hero-image" src="one-piece.jpeg" alt="">
+            <div class = "hero-info" data-aos="fade-up">
             <p class="theme-badge">${data.journal.articlePrincipal.theme}</p>
             <h4 id="hero-titre">${data.journal.articlePrincipal.titre} </h4>
             <p id="hero-description">${data.journal.articlePrincipal.description}.</p>
@@ -82,7 +84,7 @@ function getData() {
 
       data.journal.articles.forEach(infos => {
 
-        let divArticle = `<div class="article-card">
+        let divArticle = `<div class="article-card" data-aos="zoom-in-up" >
                   <img src="${infos.image}" alt="">
                   <div class="article-content">
                   <p class="theme-badge">${infos.theme}</p>
@@ -99,7 +101,7 @@ function getData() {
       console.log(themes);
       
       function creerThemes(theme) {
-          let divTheme = `<div class="theme-item"><h3>${theme.nom}</h3>
+          let divTheme = `<div class="theme-item" data-aos="flip-right"><h3>${theme.nom}</h3>
             <p>${theme.description}</p></div>
          </div>`
 
@@ -135,7 +137,8 @@ function getData() {
          
       
             function creerAuteur(auteur) {
-              let divAuteur = `<div class="author-card">
+              let divAuteur = `<div class="author-card" data-aos="fade-up"
+              data-aos-duration="500">
                <img class="author-image" src="${auteur.photo}" alt="">
                <h3>${auteur.prenom}</h3>
                <p class="author-role">${auteur.typeExperience}</p>
@@ -149,7 +152,25 @@ function getData() {
 
       // TODO 7: REMPLIR LE CALL TO ACTION
 
+      let divCta = document.getElementById("call-to-action")
+
+      
+      let texteCTA = `<div data-aos="fade-down"><p>${data.journal.texteAppelAction}</p>
+              <button class="cta-button">S'abonner</button><div>`
+      
+
+     divCta.insertAdjacentHTML("beforeend", texteCTA)
+
+     let bouton = document.querySelector(".cta-button")
+
+     bouton.addEventListener("click", function () {
+      alert("Merci pour votre abonnement !")
+  })
+
+
       /// FIN DU CODE
+
+      
 
       // BONUS 1 : Alert sur le bouton CTA
 
@@ -161,5 +182,6 @@ function getData() {
   
     .catch((error) => console.error('Erreur lors de la lecture des données :', error));
 }
+
 
 getData();

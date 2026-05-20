@@ -16,35 +16,35 @@
         "titre": "Récapitulatif des chapitres : analyse et théories sur les derniers développements",
         "date": "20 Avril 2024",
         "theme": "Manga",
-        "image": "assets/images/image2.png",
+        "image": "one piece 2.jpg",
         "popularite": 78
       },
       {
         "titre": "Analyse des épisodes : critiques et discussions sur les derniers épisodes de l'anime",
         "date": "15 Avril 2024",
         "theme": "Anime",
-        "image": "assets/images/image3.jpg",
+        "image": "ace.jpeg",
         "popularite": 63
       },
       {
         "titre": "Top 10 des moments les plus épiques de One Piece",
         "date": "5 Avril 2024",
         "theme": "Moments",
-        "image": "assets/images/image4.jpg",
+        "image": "zoro.webp",
         "popularite": 97
       },
       {
         "titre": "Les prochains arcs et événements à venir dans One Piece",
         "date": "28 Mars 2024",
         "theme": "Arcs",
-        "image": "assets/images/image2.png",
+        "image": "erbaf.webp",
         "popularite": 73
       },
       {
         "titre": "Les dernières annonces de produits dérivés et de collaborations One Piece",
         "date": "20 Mars 2024",
         "theme": "Produits dérivés",
-        "image": "assets/images/image3.jpg",
+        "image": "pop.jpg",
         "popularite": 21
       }
     ],
@@ -75,19 +75,19 @@
         "prenom": "Luffy",
         "typeExperience": "Capitaine Pirate",
         "presentation": "En tant que capitaine de l'équipage du Chapeau de Paille, je partage mes analyses et mes réflexions sur les derniers événements de One Piece, du point de vue d'un pirate intrépide !",
-        "photo": "assets/images/image2.png"
+        "photo": "luffy.webp"
       },
       {
         "prenom": "Nami",
         "typeExperience": "Cartographe et navigatrice",
         "presentation": "Navigatrice de l'équipage, je vous tiens informés des dernières nouvelles de One Piece et des meilleurs spots pour trouver les derniers trésors !",
-        "photo": "assets/images/image3.jpg"
+        "photo": "nami.jpg"
       },
       {
         "prenom": "Chopper",
         "typeExperience": "Médecin et fan inconditionnel",
         "presentation": "En tant que médecin et grand fan de la série, je vous apporte des analyses détaillées et des critiques des derniers chapitres et épisodes de One Piece.",
-        "photo": "assets/images/image4.jpg"
+        "photo": "chopper.webp"
       }
     ]
   }
