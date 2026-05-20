@@ -20,6 +20,7 @@ function getData() {
       let headerTitre = document.querySelector('header #nom-journal');
       let headerDescription = document.querySelector('header #phrase-accroche');
 
+
       headerTitre.textContent = data.journal.nomJournal
       headerDescription.textContent = data.journal.phraseAccroche
 
@@ -54,7 +55,7 @@ function getData() {
       console.log(heroContainer);
       console.log(articlePrincipal);
 
-      let div = `<img id="hero-image" src="one-piece.jpeg" alt="">
+      let div = `<img id="hero-image" src="${data.journal.articlePrincipal.image}" alt="">
             <div class = "hero-info" data-aos="fade-up">
             <p class="theme-badge">${data.journal.articlePrincipal.theme}</p>
             <h4 id="hero-titre">${data.journal.articlePrincipal.titre} </h4>

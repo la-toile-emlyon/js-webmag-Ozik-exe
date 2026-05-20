@@ -4,8 +4,8 @@
 :root {
    --primary:       #18181b;
    --primary-light: #27272a;
-   --accent:        #2563eb;
-   --accent-hover:  #1d4ed8;
+   --accent:        #ff0000;
+   --accent-hover:  #ff7777;
    --bg:            #f4f4f5;
    --bg-card:       #ffffff;
    --border:        #e4e4e7;
@@ -37,6 +37,7 @@ body {
    background: var(--bg);
    -webkit-font-smoothing: antialiased;
 }
+
 
 img { max-width: 100%; height: auto; display: block; }
 
@@ -329,7 +330,7 @@ p  { color: var(--text-muted); line-height: 1.7; }
    content: '';
    position: absolute;
    inset: 0;
-   background: radial-gradient(ellipse at 50% 120%, rgba(37,99,235,.25) 0%, transparent 65%);
+   background: radial-gradient(ellipse at 50% 120%, rgba(235, 37, 37, 0.25) 0%, transparent 65%);
    pointer-events: none;
 }
 #call-to-action p {
@@ -357,7 +358,7 @@ p  { color: var(--text-muted); line-height: 1.7; }
 .cta-button:hover {
    background: var(--accent-hover);
    transform: translateY(-2px);
-   box-shadow: 0 6px 20px rgba(37,99,235,.35);
+   box-shadow: 0 6px 20px rgba(235, 37, 37, 0.35);
 }
 
 /* ── Footer ── */
@@ -369,3 +370,20 @@ p  { color: var(--text-muted); line-height: 1.7; }
    font-size: .85rem;
 }
 .footer p { color: rgba(255,255,255,.3); margin: 0; }
+
+/* DEBUT CSS MATHIEU */
+
+.luffy{
+   position: absolute;
+   width: 150px;
+   top: 1;
+}
+
+body h1, h2, h3, h4{
+   font-family: "Permanent Marker", cursive;
+}
+
+body p {
+   font-family: "Yusei Magic", sans-serif;
+  
+}

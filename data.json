@@ -1,22 +1,22 @@
 {
   "journal": {
-    "nomJournal": "One Piece News",
+    "nomJournal": "One Piece News 📖",
     "logo": "assets/images/logo.svg",
-    "phraseAccroche": "Votre source d'informations sur l'univers de One Piece",
+    "phraseAccroche": "Votre source d'informations sur l'univers de One Piece ",
     "texteAppelAction": "Abonnez-vous pour ne rien manquer des aventures de Luffy et de son équipage !",
     "articlePrincipal": {
       "titre": "Les dernières nouvelles de One Piece : ce que les fans doivent savoir",
       "description": "Restez informés sur les chapitres du manga, les épisodes de l'anime, les annonces et les événements liés à One Piece.",
       "date": "25 Avril 2024",
       "theme": "Actualités de One Piece",
-      "image": "assets/images/image1.png"
+      "image": "wallpaper.jpg"
     },
     "articles": [
       {
         "titre": "Récapitulatif des chapitres : analyse et théories sur les derniers développements",
         "date": "20 Avril 2024",
         "theme": "Manga",
-        "image": "one piece 2.jpg",
+        "image": "joyboy.webp",
         "popularite": 78
       },
       {
