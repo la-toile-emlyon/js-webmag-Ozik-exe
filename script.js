@@ -59,7 +59,7 @@ function getData() {
             <p class="theme-badge">${data.journal.articlePrincipal.theme}</p>
             <h4 id="hero-titre">${data.journal.articlePrincipal.titre} </h4>
             <p id="hero-description">${data.journal.articlePrincipal.description}.</p>
-            <p class="date">${data.journal.articlePrincipal.date}</p>
+            <p class="date">${data.journal.articlePrincipal.date }</p>
             </div>`
 
       articlePrincipal.insertAdjacentHTML("beforeend", div)
