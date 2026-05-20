@@ -27,7 +27,7 @@ function getData() {
 
       let nav = document.getElementById("themes-nav")
       
-      let bouton1 = `<button class="nav-theme-btn active">TOUS</button>`;
+      let bouton1 = `<button class="nav-theme-btn active">Tous</button>`;
 
       nav.insertAdjacentHTML("beforeend", bouton1);
       
